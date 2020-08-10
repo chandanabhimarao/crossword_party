@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9eac5d49-a73d-432d-bc50-74235f58db0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/games_party_v1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_netflix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fewoWkYLeSAUI7UQ8DvYREaNFN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eac5d49-a73d-432d-bc50-74235f58db0d" name="Default Changelist" comment="" />
+      <created>1596592041611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596592041611</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1596765303229">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="550" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1596749869272" />
+    <state x="550" y="250" key="com.intellij.ide.util.TipDialog/0.23.1440.836@0.23.1440.836" timestamp="1596765303229" />
+    <state x="134" y="199" key="run.anything.popup" timestamp="1596597669334">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="134" y="199" key="run.anything.popup/0.23.1440.829@0.23.1440.829" timestamp="1596597669334" />
+    <state x="133" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1596597796317">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="133" y="176" width="670" height="676" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1596597796317" />
+  </component>
+</project>

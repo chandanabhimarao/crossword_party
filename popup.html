@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Netflix Party</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="popup.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </head>
+  <body>
+    <div class="no-error">
+      <div class="disconnected">
+
+        <center>
+        <h2 id = "title">Welcome to Collaborative Crossword</h2>
+        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.3999 8.45999V19.71H19.8799V4.39999H8.4599C7.38312 4.39999 6.35045 4.82774 5.58905 5.58914C4.82765 6.35054 4.3999 7.38321 4.3999 8.45999Z" fill="white"/>
+          <path d="M41.8401 57.28H53.2201C53.482 57.2767 53.743 57.2499 54.0001 57.2C54.776 57.0351 55.4879 56.6496 56.0501 56.09C56.8097 55.3277 57.2375 54.2962 57.2401 53.22V41.81H41.8401V57.28Z" fill="white"/>
+          <path d="M38.71 41.81H23.02V57.28H38.71V41.81Z" fill="white"/>
+          <path d="M57.2701 22.85H41.8401V38.54H57.2701V22.85Z" fill="white"/>
+          <path d="M38.71 4.39999H23.02V19.71H38.71V4.39999Z" fill="white"/>
+          <path d="M19.8799 22.85H4.3999V38.54H19.8799V22.85Z" fill="white"/>
+          <path d="M59.2201 4.19001C58.9258 3.79271 58.5906 3.42737 58.2201 3.10001C56.9687 1.91457 55.3405 1.20665 53.6201 1.10001C53.4701 1.10001 53.3301 1.10001 53.1801 1.10001H8.46008C8.31008 1.10001 8.17008 1.10001 8.02008 1.10001C6.14351 1.20727 4.37909 2.02843 3.08866 3.3951C1.79822 4.76178 1.07957 6.57038 1.08008 8.45001V53.23C1.08272 55.1838 1.86005 57.0569 3.24162 58.4385C4.62319 59.82 6.49624 60.5974 8.45008 60.6H53.2301C55.1848 60.5947 57.0579 59.8152 58.4391 58.432C59.8204 57.0489 60.5974 55.1748 60.6001 53.22V8.46001C60.5965 6.92762 60.114 5.43468 59.2201 4.19001ZM19.8801 38.53H4.40008V22.85H19.8801V38.53ZM19.8801 19.71H4.40008V8.46001C4.40008 7.38323 4.82783 6.35055 5.58922 5.58915C6.35062 4.82775 7.3833 4.40001 8.46008 4.40001H19.8801V19.71ZM38.7101 57.28H23.0001V41.81H38.7101V57.28ZM38.7101 19.71H23.0001V4.40001H38.7101V19.71ZM57.2801 53.22C57.2774 54.2962 56.8497 55.3277 56.0901 56.09C55.517 56.6564 54.7903 57.0424 54.0001 57.2C53.7299 57.2524 53.4553 57.2792 53.1801 57.28H41.8401V41.81H57.2801V53.22ZM57.2801 38.53H41.8401V22.85H57.2801V38.53Z" fill="black"/>
+        </svg>
+        </center>
+        <center>
+        <p>
+          <button id="create-session" type="button">START THE PARTY</button>
+        </p>
+        </center>
+        <center>
+        <p id = "js_text">
+          Join session:
+        </p>
+        <form id="js" action="">
+          <input id="j" autocomplete="off"/><button id = "join-session">JOIN</button>
+        </form>
+        </center>
+      </div>
+      <div class="connected hidden">
+        <p>Share the URL below so others can join the party. The recipient(s) should navigate to this URL and <strong>then click on the Crossword Party icon</strong> to join.</p>
+        <input id="share-url" type="text" readonly="true" autocomplete="off" autofocus />
+
+
+      </div>
+    </div>
+    <div class="some-error hidden">
+      <p id="error-msg" class="error"></p>
+      <p><button id="close-error" type="button">Dismiss</button></p>
+    </div>
+  </body>
+</html>
